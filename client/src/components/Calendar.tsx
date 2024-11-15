@@ -1,6 +1,6 @@
 import React from 'react';
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth } from 'date-fns';
-import { DateRequest } from '../../server/src/types';
+import { DateRequest } from '../../../server/src/types';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface CalendarProps {

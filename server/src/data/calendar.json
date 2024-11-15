@@ -1,11 +1,11 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "username": "admin",
-      "password": "$2b$10$8KbJ/UFxhPexKgYy.xV5.OxqkxGPl.7C3KuX4yJuYGzxG9BOzqGxW",
-      "isAdmin": true
-    }
-  ],
-  "dateRequests": []
+	"users": [
+		{
+			"id": "1",
+			"username": "admin",
+			"password": "$2a$12$2Z2pwhQSVL66iNPRxBizeePqNGQ11cUw/gY.EXFPnO6chaUWF/9X2",
+			"isAdmin": true
+		}
+	],
+	"dateRequests": []
 }

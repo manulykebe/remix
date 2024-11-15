@@ -8,7 +8,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-PVE53PXB.js";
+} from "/build/_shared/chunk-MXKJ6RM5.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XGOTYLZ5.js";
@@ -127,4 +127,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-BGKDKLCS.js.map
+//# sourceMappingURL=/build/root-YBNUGMNV.js.map
