@@ -1,11 +1,28 @@
 {
-	"users": [
-		{
-			"id": "1",
-			"username": "admin",
-			"password": "$2a$12$2Z2pwhQSVL66iNPRxBizeePqNGQ11cUw/gY.EXFPnO6chaUWF/9X2",
-			"isAdmin": true
-		}
-	],
-	"dateRequests": []
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "$2a$12$2Z2pwhQSVL66iNPRxBizeePqNGQ11cUw/gY.EXFPnO6chaUWF/9X2",
+      "isAdmin": true
+    }
+  ],
+  "dateRequests": [
+    {
+      "id": "7279b8ba-fb1a-4f91-94e2-b08ed0735bc5",
+      "userId": "1",
+      "date": "2024-11-08",
+      "status": "unavailable",
+      "acknowledged": false,
+      "createdAt": "2024-11-15T16:26:11.125Z"
+    },
+    {
+      "id": "7d899edf-8773-47cb-832d-29b18cea1556",
+      "userId": "1",
+      "date": "2024-11-11",
+      "status": "prefer-not",
+      "acknowledged": false,
+      "createdAt": "2024-11-15T16:26:17.170Z"
+    }
+  ]
 }

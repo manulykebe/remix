@@ -129,10 +129,15 @@ import {
   Scripts,
   ScrollRestoration
 } from "@remix-run/react";
+
+// app/tailwind.css
+var tailwind_default = "/build/_assets/tailwind-ORN4US5L.css";
+
+// app/root.tsx
 import { Toaster } from "react-hot-toast";
 import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
 var links = () => [
-  // { rel: "stylesheet", href: styles },
+  { rel: "stylesheet", href: tailwind_default },
   { rel: "manifest", href: "/manifest.json" },
   { rel: "apple-touch-icon", href: "/icons/icon-192x192.png" }
 ];
@@ -652,7 +657,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-QJSYZVPZ.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-MXKJ6RM5.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-5IEQTSYW.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YBNUGMNV.js", imports: ["/build/_shared/chunk-KXR45AHW.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-ZPZFQ3F4.js", imports: void 0, hasAction: !0, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "b5f8c874", hmr: { runtime: "/build/_shared\\chunk-5IEQTSYW.js", timestamp: 1731686434965 }, url: "/build/manifest-B5F8C874.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-QJSYZVPZ.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-MXKJ6RM5.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-5IEQTSYW.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-JJZSF4AB.js", imports: ["/build/_shared/chunk-KXR45AHW.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-ZPZFQ3F4.js", imports: void 0, hasAction: !0, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "8fc5e2a8", hmr: { runtime: "/build/_shared\\chunk-5IEQTSYW.js", timestamp: 1731687950004 }, url: "/build/manifest-8FC5E2A8.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1, v3_singleFetch: !1, v3_lazyRouteDiscovery: !1, unstable_optimizeDeps: !1, unstable_routeConfig: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {
